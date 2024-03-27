@@ -1,0 +1,96 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+} */
+
+/* .brand {
+  position: fixed;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  height: 75px;
+  width: 100%;
+}
+
+.brand-title {
+  float: left;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+
+  color: #443585;
+  font-weight: bold;
+  font-size: 40px;
+} */
+
+/* .brand-items-div {
+  float: right; */
+/* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end; */
+/* } */
+
+/* .brand-item {
+  background-color: white;
+  color: #443585;
+  border: none;
+  text-align: center;
+  margin-right: 15px;
+  padding: 15px 5px 15px 0px;
+}
+
+.brand-item:last-child {
+  border: 0px;
+  border-radius: 40px;
+  background-color: #443585;
+  padding: 15px;
+  color: white;
+  text-align: center;
+} */
+
+/* .brand-item-text {
+  text-align: cent;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brand-item:hover {
+  color: #b8b4c8;
+} */
+
+/* <header class="brand">
+      <a href="./index.html"><h1 class="brand-title">BUDAPEST JIMMY JIB</h1></a>
+      <div class="brand-items-div">
+        <button class="brand-item" id="about-button">
+          <p class="brand-item-text">ABOUT</p>
+        </button>
+        <button class="brand-item" id="services-button">
+          <p class="brand-item-text">SERVICES</p>
+        </button>
+        <button class="brand-item" id="references-button">
+          <p class="brand-item-text">REFERENCES</p>
+        </button>
+        <button class="brand-item" id="contact-button">
+          <p class="brand-item-text">CONTACT</p>
+        </button>
+      </div>
+    </header> */

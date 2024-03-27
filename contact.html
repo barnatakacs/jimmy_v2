@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jimmy Jib Budapest</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="logo">JIMMY JIB BUDAPEST</a>
+        <ul class="navlinks">
+          <li><a href="./services.html">SERVICES</a></li>
+          <li><a href="./references.html">REFERENCES</a></li>
+          <li><a href="./index.html">ABOUT</a></li>
+          <li><a href="./contact.html" class="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="page contact-page">
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="contact-modal-content" id="img01" />
+        <div id="caption"></div>
+      </div>
+      <article class="contact-page-content">
+        <!--
+            <ul class="contact-list">
+          <li class="contact-list-item">
+            <h3>NAME:</h3>
+            <p>ZSOLT TAKACS</p>
+          </li>
+          <li class="contact-list-item">
+            <h3>MOBILE:</h3>
+            <p>+36 30 333 3333</p>
+          </li>
+          <li class="contact-list-item">
+            <h3>LANDLINE:</h3>
+            <p>+36 1 333 3333</p>
+          </li>
+          <li class="contact-list-item">
+            <h3>EMAIL:</h3>
+            <p>jimmyjib@example.com</p>
+          </li>
+          <li class="contact-list-item">
+            <h3>ADDRESS:</h3>
+            <p>1121 BP. TALLYA ST. 1.</p>
+          </li>
+        </ul>
+        -->
+        <img
+          src="./images/11845104_1160184177332519_5901921010316938779_o.jpg"
+          class="contact-img myImg"
+        />
+        <table class="contact-table">
+          <tr class="table-row">
+            <th>
+              <h2 class="contact-title">Contact information</h2>
+            </th>
+          </tr>
+          <tr class="table-row">
+            <td class="table-title">NAME:</td>
+            <td class="table-data">ZSOLT TAKACS</td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-title">MOBILE:</td>
+            <td class="table-data">+36 33 333 3333</td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-title">LANDLINE:</td>
+            <td class="table-data">+36 1 333 3333</td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-title">EMAIL:</td>
+            <td class="table-data">jimmyjib@example.com</td>
+          </tr>
+          <tr class="table-row">
+            <td class="table-title">ADDRESS:</td>
+            <td class="table-data">1121 Budapest Tallya St. 24.</td>
+          </tr>
+        </table>
+      </article>
+      <button id="message-btn" class="message-btn">SEND US A MESSAGE</button>
+      <div class="form-modal" id="form-modal">
+        <form class="msg-form" id="msg-form">
+          <!--
+  <div class="input-group">
+            <input type="text" id="name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" required />
+            <label for="email">Email Adress</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="subject" required />
+            <label for="subject">Subject</label>
+          </div>
+          <div class="input-group">
+            <textarea id="msg" rows="8"></textarea>
+            <label for="msg">Write Your Message</label>
+          </div>
+          -->
+          <div class="input-row">
+            <div class="input-group">
+              <label>Name</label>
+              <input type="text" placeholder="Your Name" />
+            </div>
+            <div class="input-group">
+              <label>Phone</label>
+              <input type="text" placeholder="Your Phone Number" />
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-group">
+              <label>Email</label>
+              <input type="email" placeholder="Your Email" />
+            </div>
+            <div class="input-group">
+              <label>Subject</label>
+              <input type="text" placeholder="Subject" />
+            </div>
+          </div>
+
+          <label>Message</label>
+          <textarea placeholder="Write your message here" rows="5"></textarea>
+          <div class="form-btns-div">
+            <button type="submit" class="form-btns cancel-btn" id="cancel-btn">
+              CANCEL
+            </button>
+            <button class="form-btns submit-btn">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="https://www.facebook.com/" target="_blank" class="facebook-icon"
+        ><i class="fa fa-facebook-square"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        class="instagram-icon"
+      >
+        <i class="fa-brands fa-square-instagram"></i
+      ></a>
+      <p class="footer-text">© JIMMY JIB BUDAPEST</p>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/289061e112.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
